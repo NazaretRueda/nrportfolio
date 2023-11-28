@@ -55,3 +55,15 @@ body {
 .links a {
   color: rgb(255, 0, 0);
 }
+
+/* Banner */
+
+.hero-banner {
+  padding: 20px;
+  background-color: rgb(12, 16, 15);
+  background-image: url("./../images/02-hero-bg.jpg");
+  display: grid;
+  align-items: center;
+  height: 150px;
+  color: aliceblue;
+}
