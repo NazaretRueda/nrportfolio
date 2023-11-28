@@ -67,3 +67,21 @@ body {
   height: 150px;
   color: aliceblue;
 }
+
+/* Content Section */
+
+.page-section {
+  padding: 20px;
+  display:grid;
+  border: 1px black solid; margin-top: 20px;
+  border-radius: 10px;
+  border-width: 5px;
+  background-color: rgb(235, 229, 229);
+}
+
+
+h2 {
+  margin-bottom: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+}
