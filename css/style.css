@@ -22,3 +22,36 @@ h6 {
 p {
   margin: 0;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Heade style */
+.header {
+  padding: 20px;
+  background-color: aquamarine;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 25% 75%
+}
+.logo {
+  color: aliceblue;
+  font-family: cursive
+}
+
+.links ul{
+  display: flex;
+  justify-content: end;
+  list-style-type: none;
+  color: aliceblue;
+}
+
+.links li {
+  margin-left: 3%;
+}
+
+.links a {
+  color: rgb(255, 0, 0);
+}
