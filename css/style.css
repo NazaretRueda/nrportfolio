@@ -85,3 +85,23 @@ h2 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 20px;
 }
+
+#work {
+  display: grid;
+}
+
+.examples {
+  display:grid;
+  text-align: center;
+
+}
+
+.examples img {
+  width: 100%;
+}
+
+.column-examples {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-top: 20px;
+}
