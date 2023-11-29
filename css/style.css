@@ -7,7 +7,7 @@ body {
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
-  background-color: blanchedalmond;
+  background-color: #4E342E;
 }
 
 h1,
@@ -31,21 +31,32 @@ body {
 /* Heade style */
 .header {
   padding: 20px;
-  background-color: aquamarine;
+  background-color: #4E342E;
+  background-size: 100%;
   display: grid;
   align-items: center;
   grid-template-columns: 25% 75%
 }
 .logo {
-  color: aliceblue;
-  font-family: cursive
+  display:flex;
+  margin-left: 10px;
+  color: #B2DFDB;
+  font-family:monospace;
+  font-style: oblique;
+}
+
+.logo img {
+  display: flex;
+  width: 100%;
+  border: 10px #E91E63;
+  margin-right: 20px;
 }
 
 .links ul{
   display: flex;
   justify-content: end;
   list-style-type: none;
-  color: aliceblue;
+  color:  #868282;
 }
 
 .links li {
@@ -53,15 +64,19 @@ body {
 }
 
 .links a {
-  color: rgb(255, 0, 0);
+  color: #FBC02D;
+  font-size:larger
 }
+
 
 /* Banner */
 
 .hero-banner {
   padding: 20px;
   background-color: rgb(12, 16, 15);
-  background-image: url("./../images/02-hero-bg.jpg");
+  background-image: url("./../images/top-view-colorful-paper-sheets.jpg");
+  background-repeat: round;
+  background-size: auto;
   display: grid;
   align-items: center;
   height: 150px;
@@ -71,40 +86,66 @@ body {
 /* Content Section */
 
 .page-section {
-  padding: 20px;
+  padding: 30px;
   display:grid;
-  border: 1px black solid; margin-top: 20px;
+  border: 10px; 
+  margin-top: 20px; margin: 30px;
   border-radius: 10px;
   border-width: 5px;
-  background-color: rgb(235, 229, 229);
+  background-color:#B2DFDB;
 }
-
 
 h2 {
   margin-bottom: 10px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #E91E63;
   font-size: 20px;
 }
 
-#work {
+.work {
   display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas:
+  "job1 job1"
+  "job2 job3"
+  "job4 job5"
+  ;
 }
 
-.examples {
-  display:grid;
-  text-align: center;
-
+.job1 {
+  grid-area: job1;
+  ;
 }
 
-.examples img {
+.job2 {
+  grid-area: job2;
+}
+
+.job3 {
+  grid-area: job3;
+}
+
+.job4 {
+  grid-area: job4;
+}
+
+.job5 {
+  grid-area: job5;
+}
+
+/*
+
+/*.examples img {
   width: 100%;
-}
+}*/
 
-.column-examples {
+/*.column-examples {
   display: grid;
   grid-template-columns: 50% 50%;
   margin-top: 20px;
 }
+*/
 
 /* Contact me*/
 
