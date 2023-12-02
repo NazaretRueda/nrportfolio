@@ -148,21 +148,20 @@ body {
 
 .contact {
   display:grid;
-  text-align: start;
+  text-align: center;
 }
 
 .contact h2 {
-  margin-bottom: 10%;
-  margin-top: 10%;
-  color: #FBC02D;
+  color: #0c0c0b;
+  font-size: x-large;
+
 }
 
 .contact h3 {
-  color: pink;
-  margin-bottom: 15px;
+  color: rgb(27, 21, 22);
 }
 
 .contact img {
   width: 100px;
-  margin-top: 5%;
+  margin-top: 2%;
 }
