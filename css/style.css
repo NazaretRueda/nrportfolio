@@ -43,12 +43,11 @@ body {
   color: #B2DFDB;
   font-family:monospace;
   font-style: oblique;
+  align-items: end;
 }
 
 .logo img {
-  display: flex;
-  width: 100%;
-  border: 10px #E91E63;
+  width: 40%;
   margin-right: 20px;
 }
 
@@ -95,57 +94,50 @@ body {
   background-color:#B2DFDB;
 }
 
-h2 {
+.page-section h2 {
   margin-bottom: 10px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: #E91E63;
   font-size: 20px;
 }
 
-.work {
+.grid-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-areas:
-  "job1 job1"
-  "job2 job3"
-  "job4 job5"
-  ;
+  gap: 10px;
+  padding: 10px;
 }
 
-.job1 {
-  grid-area: job1;
-  ;
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
 }
 
-.job2 {
-  grid-area: job2;
+.item1 {
+  grid-column: 1 / span 4;
+  grid-row: 1;
 }
 
-.job3 {
-  grid-area: job3;
+.item2 {
+  grid-row: 2 / span 1;
+  grid-column: 1 / span 2;
 }
 
-.job4 {
-  grid-area: job4;
+.item3 {
+  grid-row: 2 / span 1;
+  grid-column: 3 / span 2;
 }
 
-.job5 {
-  grid-area: job5;
+.item4 {
+  grid-row: 3 / span 1;
+  grid-column: 1 / span 2;
 }
 
-/*
-
-/*.examples img {
-  width: 100%;
-}*/
-
-/*.column-examples {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  margin-top: 20px;
+.item5 {
+  grid-row: 3;
+  grid-column: 3 / span 2;
 }
-*/
 
 /* Contact me*/
 
