@@ -110,7 +110,7 @@ body {
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
-  padding: 20px;
+  padding: 15px;
   font-size: 30px;
 }
 
@@ -151,11 +151,18 @@ body {
   text-align: start;
 }
 
+.contact h2 {
+  margin-bottom: 10%;
+  margin-top: 10%;
+  color: #FBC02D;
+}
+
 .contact h3 {
   color: pink;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .contact img {
   width: 100px;
+  margin-top: 5%;
 }
