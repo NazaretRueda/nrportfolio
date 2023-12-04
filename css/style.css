@@ -186,3 +186,80 @@ header a {
   width: 200px;
   margin-top: 2%;
 }
+
+
+
+
+
+/* For Desktop View */
+@media screen and (min-width: 1024px) {
+  .gfg-div {
+  }
+}
+
+/* For Tablet View */
+@media screen and (min-device-width: 768px) 
+  and (max-device-width: 1024px) {
+  .gfg-div {
+      width: 400px;
+      height: 400px;
+  }
+}
+
+/* For Mobile Portrait View */
+@media screen and (max-device-width: 480px) 
+  and (orientation: portrait) {
+  .gfg-div {
+      width: 200px;
+      height: 200px;
+  }
+  .body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:smaller;
+    line-height: 1.5;
+    background-color: #4c605b;
+  }
+
+  .header h1 {
+    color:#F7EDE2;
+  }
+  
+  header li {
+    list-style:none;
+    display:inline-table;
+  }
+  
+  header a {
+    color:#F7EDE2;
+    font-size: smaller;
+  }
+  
+  .about2 {
+    grid-column: 1/2;
+    margin-top: 30px;
+    font-size: smaller;
+  }
+
+  .contact h3 {
+    color: rgb(27, 21, 22);
+    font-size: smaller;
+  }
+  
+  .contact img {
+    width: 100px;
+    margin-top: 2%;
+  }
+
+
+}
+
+/* For Mobile Landscape View */
+@media screen and (max-device-width: 640px) 
+  and (orientation: landscape) {
+  .gfg-div {
+      width: 400px;
+      height: 200px;
+  }
+}
