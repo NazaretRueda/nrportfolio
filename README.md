@@ -12,14 +12,28 @@ A contact section with contact information and link to Linkdn.
 
 # Screenshot
 
+![Screenshot part 1](../nrportfolio/images/Screenshot1.png)
+![Screenshot part 2](../nrportfolio/images/Screenshot2.png)
+![Screenshot part 3](../nrportfolio/images/Screenshot3.png)
+![Screenshot part 4](../nrportfolio/images/Screenshot4.png)
+![Screenshot part 5](../nrportfolio/images/Screenshot5.png)
 
-https://nazaretrueda.github.io/challenge1/starter/index.html
+https://github.com/NazaretRueda/nrportfolio.git
 
 # Credits
 
+https://www.geeksforgeeks.org/what-does-meta-http-equivx-ua-compatible-contentieedge-do/
 
+https://www.w3schools.com/cssref/pr_background-image.php
+
+https://www.w3schools.com/tags/tag_img.asp
+
+https://www.computerhope.com/issues/ch000049.htm
+
+Image by <a href="https://pixabay.com/users/volensnolens-13096260/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4561421">Vladimir</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4561421">Pixabay</a>
 
 # License
+
 MIT License
 
 Copyright (c) 2023 Naz
