@@ -11,12 +11,7 @@ Project section that contain work elaborated by user.
 A contact section with contact information and link to Linkdn.
 
 # Screenshot
-
-![Screenshot part 1](<img width="1275" alt="Screenshot1" src="https://github.com/NazaretRueda/nrportfolio/assets/150092323/4d3eb1a6-dba1-491a-bc20-3a26c5a3e987">)
-![Screenshot part 2](<img width="1275" alt="Screenshot2" src="https://github.com/NazaretRueda/nrportfolio/assets/150092323/f70f5a19-937c-42d7-b993-5da49322ae0c">)
-![Screenshot part 3](<img width="1275" alt="Screenshot3" src="https://github.com/NazaretRueda/nrportfolio/assets/150092323/b56dd884-bdbc-42ac-aac7-92a0629442b2">)
-![Screenshot part 4](<img width="1275" alt="Screenshot4" src="https://github.com/NazaretRueda/nrportfolio/assets/150092323/653532c4-8f04-4fe6-ba1b-2479a33944e7">)
-![Screenshot part 5](<img width="1275" alt="Screenshot5" src="https://github.com/NazaretRueda/nrportfolio/assets/150092323/82f1952c-8c5d-4b3c-8342-d9ccf9f03236">)
+![Alt text](images/Screenshot1.png)
 
 https://github.com/NazaretRueda/nrportfolio.git
 
