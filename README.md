@@ -11,7 +11,7 @@ Project section that contain work elaborated by user.
 A contact section with contact information and link to Linkdn.
 
 # Screenshot
-![Alt text](images/Screenshot1.png)
+
 
 https://github.com/NazaretRueda/nrportfolio.git
 
