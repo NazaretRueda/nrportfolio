@@ -17,7 +17,7 @@ A contact section with contact information and link to Linkdn.
 ![Alt  screenshot4](images/Screenshot4.png)
 ![Alt  screenshot5](images/Screenshot5.png)
 
-https://github.com/NazaretRueda/nrportfolio.git
+https://nazaretrueda.github.io/nrportfolio/
 
 # Credits
 
